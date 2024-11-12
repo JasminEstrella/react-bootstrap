@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+header {
+
+    width: 100%;
+    background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo-text {
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-style: normal;
+    margin: auto;
+    font-size: 5vh;
+    color: rgb(235, 232, 232);
 }
+
+.logo-img {
+    width: 60px;
+}
+
+.nav-item {
+    /* margin: auto; */
+    border-radius: 0px;
+}
+
+.nav-pills .nav-link,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: transparent;
+}
+
+/* .nav-pills .nav-item a:hover {
+    color: #1a1a1a;
+} */
+
+/* .contact-btn {
+    font-weight: 600;
+    background-color: #020202cc;
+    border-color: #020202cc;
+    border-radius: 5px;
+} */
+
+/* .contact-btn:hover,
+.contact-btn:focus {
+
+    background-color: transparent;
+    border-color: transparent;
+} */
+
+/* .carousel {
+    height: 100vh;
+    ;
+} */
+
+.carousel-item img {
+    width: 100%;
+    height: fit-content;
+
+}
+
+/* @media (min-width: 662px) { */
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #8080802e;
+}
+
+.nav-pills .nav-link,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: transparent;
+}
+
+.nav-pills .nav-item a:hover {
+    color: #1a1a1a;
+    /* border-bottom: 1px solid gray; */
+    /* border-bottom: gray; */
+
+}
+
+.contact-btn,
+.contact-btn:hover,
+.contact-btn:focus {
+
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* } */
